@@ -18,7 +18,9 @@
     document.querySelector(".blue").addEventListener("click",function(ev){ 
         document.querySelector("body").setAttribute("class","blueBack");
     })
-    
+    document.querySelector(".reset").addEventListener("click",function(ev){ 
+        document.querySelector("body").setAttribute("class","blueBack");
+    })
 })();
 
   
