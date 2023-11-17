@@ -9,7 +9,7 @@
         document.getElementById("myHeading").innerHTML="Heading";
         console.dir(ev);
     })
-    document.querySelectorq(".red").addEventListener("click",function(ev){ 
+    document.querySelector(".red").addEventListener("click",function(ev){ 
         document.querySelector("body").setAttribute("class","redBack");
     })
 
