@@ -26,11 +26,20 @@
     document.getElementById('myImages').setAttribute('src',imageAr[0]);
     i=0;
     function chgImage(){
+        if (i<imageAr.length)
+        {
         console.info('Called');  
         document.getElementById('myImages').setAttribute('src',imageAr[i]);   
         i++;
+        }
+        else{
+            i=0;
+            document.getElementById('myImages').setAttribute('src',imageAr[i]);   
+            i++;
+        }
     }
-    setInterval(chgImage, 2000); 
+    setInterval(chgImage, 4000); 
+    document.querySelector('myImages').addEventListener("click",chgImage);
 })();
 
   
