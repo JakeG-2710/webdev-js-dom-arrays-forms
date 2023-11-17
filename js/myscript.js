@@ -22,7 +22,7 @@
         document.querySelector("body").removeAttribute("class")
     })
 
-    let imageAr=['images/views1.jpg','images/views2.jpg','images/views3.jpg','images/views4.jpg','images/views5.jpg','images/views6.jpg'];
+    let imageAr=['images/view1.jpg','images/view2.jpg','images/view3.jpg','images/view4.jpg','images/view5.jpg','images/view6.jpg'];
     document.getElementById('myImages').setAttribute('scr',imageAr[2]);
 })();
 
