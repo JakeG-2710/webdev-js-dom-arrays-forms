@@ -4,9 +4,14 @@
     document.getElementById("myHeading").innerHTML="Jake";
     document.querySelector("nav ul li").setAttribute("class", "currentPage");
 
-    document.getElementById("myTestEvent").onclick=function(){
+    document.getElementById("myTestEvent").addEventListener("click",function(ev){ 
         console.info("HELLO")
-    }
+        document.getElementById("myHeading").innerHTML="Heading";
+        console.dir(ev);
+    })
+    document.querySelectorq(".red").addEventListener("click",function(ev){ 
+        document.querySelector("body").setAttribute("class","redBack");
+    })
 
 })();
 
