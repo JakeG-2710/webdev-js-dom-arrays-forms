@@ -29,7 +29,7 @@
         console.info('Called');     
         
     }
-    setInterval(chgImage,2000); 
+    setInterval(chgImage, 2000); 
 })();
 
   
