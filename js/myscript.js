@@ -19,8 +19,7 @@
         document.querySelector("body").setAttribute("class","blueBack");
     })
     document.querySelector(".default").addEventListener("click",function(ev){ 
-        document.querySelector("body").removeAttribute("class, whiteBack");
-    })
+        document.querySelector("body").setAttribute("class","redBack");
 })();
 
   
